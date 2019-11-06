@@ -1,0 +1,51 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                }
+            },
+            "shader": "pbr-metal-rough-with-alpha-blending",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "Buttons": {
+            "shader": "Main shader"
+        },
+        "Reel_001": {
+            "shader": "Main shader"
+        },
+        "Reel_002": {
+            "shader": "Main shader"
+        },
+        "Reel_003": {
+            "shader": "Main shader"
+        },
+        "Screen_001": {
+            "shader": "Main shader"
+        },
+        "Screen_002": {
+            "shader": "Main shader"
+        },
+        "Screen_003": {
+            "shader": "Main shader"
+        },
+        "Slotmachine_Metal_MAT": {
+            "shader": "Main shader"
+        }
+    }
+}
