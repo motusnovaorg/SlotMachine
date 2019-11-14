@@ -391,6 +391,51 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.Core.Editor">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.Core.Runtime">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.Flow.Editor">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.Flow.Runtime">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.State.Editor">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.State.Runtime">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Core.Editor">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Core.Runtime">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Graphs.Editor">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Graphs.Runtime">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Platforms">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll</HintPath>
+    </Reference>
+    <Reference Include="MiscUtil">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/MiscUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="YamlDotNet">
+      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/YamlDotNet.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
@@ -399,51 +444,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="Ludiq.Graphs.Editor">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Ludiq.Core.Runtime">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Ludiq.Graphs.Runtime">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolt.Core.Runtime">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="YamlDotNet">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="MiscUtil">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/MiscUtil.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolt.Flow.Runtime">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolt.Core.Editor">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Ionic.Zip">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Ionic.Zip.dll</HintPath>
-    </Reference>
-    <Reference Include="Ludiq.Core.Editor">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolt.State.Editor">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolt.State.Runtime">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Antlr3.Runtime">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolt.Flow.Editor">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Ludiq.Platforms">
-      <HintPath>C:/Users/russelljeter/Motus Nova Git/SlotMachine/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
