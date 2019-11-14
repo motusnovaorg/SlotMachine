@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: MMUISendTCPMessage
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"enter","label":null,"summary":"","hideLabel":true}],"controlOutputDefinitions":[{"key":"exit","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":"GalileoTCPClientGO","$type":"System.String"},"_type":"System.String","key":"TCPClient
+      GO","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":null,"_type":"System.String","key":"MessageTopic","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":null,"_type":"System.String","key":"Message","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":"Galileo","$type":"System.String"},"_type":"System.String","key":"TCP
+      Client","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":155.0438,"y":54.0355},"zoom":0.7500001,"elements":[{"chainable":false,"member":{"name":"StartTCPRequest","parameterTypes":["System.String","System.String","System.String"],"targetType":"PatientManager","targetTypeName":"PatientManager","$version":"A"},"defaultValues":{"target":null,"%message":{"$content":"","$type":"System.String"},"%topic":{"$content":"","$type":"System.String"},"%TCPServer":{"$content":"","$type":"System.String"}},"position":{"x":-192.0,"y":-166.0},"guid":"3981f44c-fa03-4867-b5ba-d297fc7e5f88","$version":"A","$type":"Bolt.InvokeMember","$id":"15"},{"defaultValues":{},"position":{"x":-992.0,"y":-63.0},"guid":"a551ed6e-85cb-4cbc-99b6-ec83590cc1eb","$version":"A","$type":"Bolt.GraphInput","$id":"18"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"PatientManagerGO","$type":"System.String"}},"position":{"x":-776.0,"y":-242.0},"guid":"373e3738-778e-438b-a05f-d551cc103160","$version":"A","$type":"Bolt.GetVariable","$id":"20"},{"defaultValues":{},"position":{"x":740.0,"y":-68.0},"guid":"2f5c6ece-f8f1-4601-af7f-ac0135efc3cf","$version":"A","$type":"Bolt.GraphOutput","$id":"22"},{"sourceUnit":{"$ref":"15"},"sourceKey":"exit","destinationUnit":{"$ref":"22"},"destinationKey":"exit","guid":"419f5047-0c16-4b18-8f68-20252e50ba8f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"enter","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"3dc526e1-cba9-4446-a7cf-c2250a3fdde6","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"Message","destinationUnit":{"$ref":"15"},"destinationKey":"%message","guid":"5c121d38-b508-49b9-9553-d45e3a13a836","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"1b7883d3-fedb-4590-aeb2-2f6ac6d3094b","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"TCP
+      Client","destinationUnit":{"$ref":"15"},"destinationKey":"%TCPServer","guid":"6d1a89ab-c67e-4c39-9ef5-d79bec0fbcf5","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"MessageTopic","destinationUnit":{"$ref":"15"},"destinationKey":"%topic","guid":"40378e09-a353-4960-b5b4-ff4abf6a4252","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

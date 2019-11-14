@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: DynamicRomTester
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-9.610528,"y":3.647371},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"FailedExtension":{"$content":true,"$type":"System.Boolean"},"FailFlexion":{"$content":true,"$type":"System.Boolean"}},"position":{"x":-127.0,"y":112.0},"guid":"118be42c-8aa4-40ca-8cdc-8c0c842bc380","$version":"A","$type":"Bolt.SuperUnit"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{"test1":{"$content":"float","$type":"System.String"},"test2":null},"position":{"x":-362.0,"y":-18.0},"guid":"bf3c9d25-a145-4e3f-9af4-5039831c8794","$version":"A","$type":"Bolt.SuperUnit","$id":"12"},{"nest":{"source":"Macro","macro":2,"embed":null},"defaultValues":{},"position":{"x":200.0,"y":-20.0},"guid":"c7ec97b3-1a71-42ed-a959-cc8f45e10297","$version":"A","$type":"Bolt.SuperUnit","$id":"15"},{"sourceUnit":{"$ref":"12"},"sourceKey":"exit","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"e656984a-5d9d-49db-bf39-e79a8d5ab45d","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"out1","destinationUnit":{"$ref":"15"},"destinationKey":"value1","guid":"c19c085e-fd91-47ee-9216-b05c07dfd310","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"out2","destinationUnit":{"$ref":"15"},"destinationKey":"value2","guid":"c0656a98-82cb-4192-a1b3-416d626d09a6","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c8d886c605e754ebeb6a16816889f46b, type: 2}
+    - {fileID: 11400000, guid: 3074399d3c65c4958b7240ff26d3ef64, type: 2}
+    - {fileID: 11400000, guid: 5ee28bd42dbf742af84ad21835146d63, type: 2}

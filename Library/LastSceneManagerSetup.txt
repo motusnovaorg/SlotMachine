@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Environment scene.unity
+- path: Assets/Scenes/SlotMachine.unity
   isLoaded: 1
   isActive: 1

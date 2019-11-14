@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: UpdateDynamicROM
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":"Enter","summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Exit","label":"Exit","summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":{"$content":0.0,"$type":"System.Single"},"_type":"System.Single","key":"Dynamic
+      ROM Min","label":"Dynamic ROM Min","summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":{"$content":0.0,"$type":"System.Single"},"_type":"System.Single","key":"Dynamic
+      ROM Max","label":"Dynamic ROM Max","summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-192.0,"y":-62.0},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"SetDynamicROM","parameterTypes":["System.Single","System.Single"],"targetType":"PatientManager","targetTypeName":"PatientManager","$version":"A"},"defaultValues":{"target":null,"%dynamicROMMin":{"$content":0.0,"$type":"System.Single"},"%dynamicROMMax":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-388.0,"y":-287.0},"guid":"c7cc9522-9cf6-44e0-bf4d-a8763d950031","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"defaultValues":{},"position":{"x":-723.0,"y":-333.0},"guid":"bc2b8e46-1075-4d6f-8177-e0b6a2124b6f","$version":"A","$type":"Bolt.GraphInput","$id":"16"},{"chainable":false,"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":-124.0,"y":-140.0},"guid":"bf130014-9b40-45ae-bb3e-b26f277dcc0e","$version":"A","$type":"Bolt.InvokeMember","$id":"18"},{"type":"System.String","value":{"$content":"Updated
+      Dynamic ROM Values!","$type":"System.String"},"defaultValues":{},"position":{"x":-452.0,"y":-54.0},"guid":"caf7f2b9-c46c-48b0-88bf-e298a5f5dcd6","$version":"A","$type":"Bolt.Literal","$id":"21"},{"defaultValues":{},"position":{"x":172.0,"y":-193.0},"guid":"bf526cc8-61fe-44d4-9780-845c9926ebc3","$version":"A","$type":"Bolt.GraphOutput","$id":"23"},{"sourceUnit":{"$ref":"13"},"sourceKey":"exit","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"441c1008-642d-432f-9428-304586477981","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"Enter","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"c0d8547f-1f57-40b8-9563-d68ec5102863","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"exit","destinationUnit":{"$ref":"23"},"destinationKey":"Exit","guid":"d0432329-f984-4646-96e9-68b3b24c2b0b","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"output","destinationUnit":{"$ref":"18"},"destinationKey":"%message","guid":"5f80c2d3-9246-41fb-a796-3c6820af32e8","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"Dynamic
+      ROM Min","destinationUnit":{"$ref":"13"},"destinationKey":"%dynamicROMMin","guid":"4caff648-1851-4c3b-8d5b-32e59e667e46","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"Dynamic
+      ROM Max","destinationUnit":{"$ref":"13"},"destinationKey":"%dynamicROMMax","guid":"3732196b-27f1-459d-8c4b-2c4fd7823114","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
