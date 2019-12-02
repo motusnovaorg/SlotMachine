@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: AllBars
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":{"$content":0,"$type":"System.Int32"},"_type":"System.Int32","key":"Reel1Value","label":"Reel1Value","summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":{"$content":0,"$type":"System.Int32"},"_type":"System.Int32","key":"Reel2Value","label":"Reel2Value","summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":{"$content":0,"$type":"System.Int32"},"_type":"System.Int32","key":"Reel3Value","label":"Reel3Value","summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"System.Boolean","key":"AllBars","label":"AllBars","summary":"Are
+      all of the reel values bars?","hideLabel":false}],"title":null,"summary":null,"pan":{"x":358.0,"y":19.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-332.0,"y":-78.0},"guid":"7f8a3492-2d66-4bc9-9209-0e688dbb8a63","$version":"A","$type":"Bolt.GraphInput","$id":"13"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":45.0,"y":-143.0},"guid":"32fb6610-f5ce-4f94-8e4f-e2a46aebc0af","$version":"A","$type":"Bolt.SuperUnit","$id":"15"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{},"position":{"x":45.0,"y":-51.0},"guid":"2c2c3e4b-94d3-47a7-b571-14ac7bcffdb3","$version":"A","$type":"Bolt.SuperUnit","$id":"18"},{"nest":{"source":"Macro","macro":2,"embed":null},"defaultValues":{},"position":{"x":45.0,"y":41.0},"guid":"07706673-8518-441b-9d09-5a26a517f518","$version":"A","$type":"Bolt.SuperUnit","$id":"21"},{"defaultValues":{},"position":{"x":345.0,"y":-102.0},"guid":"b7343e00-f784-433b-8446-3b4389cac208","$version":"A","$type":"Bolt.And","$id":"24"},{"defaultValues":{},"position":{"x":524.0,"y":-90.0},"guid":"e9fe1ea1-1dc1-438e-9905-1f08c6eb42b1","$version":"A","$type":"Bolt.And","$id":"26"},{"defaultValues":{},"position":{"x":796.0,"y":-89.0},"guid":"7c8b4f18-c95b-4587-81ae-e0db60f616e6","$version":"A","$type":"Bolt.GraphOutput","$id":"28"},{"sourceUnit":{"$ref":"15"},"sourceKey":"IsBar","destinationUnit":{"$ref":"24"},"destinationKey":"a","guid":"b33e515d-6ecd-4ad3-87ea-7b3e0cd057b7","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"IsBar","destinationUnit":{"$ref":"24"},"destinationKey":"b","guid":"fd88876e-bc5d-4bf3-89f1-83de1368afbc","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"result","destinationUnit":{"$ref":"26"},"destinationKey":"a","guid":"68532e8d-f64a-4ea2-ba95-de1615503de7","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"IsBar","destinationUnit":{"$ref":"26"},"destinationKey":"b","guid":"21aef155-3254-4f8c-8f16-463fd17cf6e1","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Reel1Value","destinationUnit":{"$ref":"15"},"destinationKey":"ReelValue","guid":"24db731a-b659-420e-8cf5-1ebed8e6b7d4","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Reel2Value","destinationUnit":{"$ref":"18"},"destinationKey":"ReelValue","guid":"71e58b65-a10a-4843-9d29-c721b77fcf8e","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Reel3Value","destinationUnit":{"$ref":"21"},"destinationKey":"ReelValue","guid":"0b4dcd74-b712-465b-8e2f-83357eedf8f8","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"26"},"sourceKey":"result","destinationUnit":{"$ref":"28"},"destinationKey":"AllBars","guid":"218a0ee6-2b6d-4c11-bce1-827665db6b55","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 0a921ea819a83404fb8db3a75618b4c8, type: 2}
+    - {fileID: 11400000, guid: 0a921ea819a83404fb8db3a75618b4c8, type: 2}
+    - {fileID: 11400000, guid: 0a921ea819a83404fb8db3a75618b4c8, type: 2}
