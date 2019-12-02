@@ -61,7 +61,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: ReelOne_SpintoJackpot
     m_Type: 4
@@ -81,7 +81,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: ReelTwo_SpintoSeven
+  - m_Name: ReelTwo_SpintoGreySeven
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -99,7 +99,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: ReelTwo_SpintoBar
+  - m_Name: ReelTwo_SpintoSeven
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -117,7 +117,13 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: ReelThree_SpintoSeven
+  - m_Name: ReelThree_SpintoRedSeven
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: ReelThree_SpintoGreySeven
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -129,13 +135,25 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: ReelThree_SpintoBar
+  - m_Name: Spew_Coins
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Spew_Coins
+  - m_Name: ReelOne_SpintoGreySeven
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: ReelTwo_SpintoBar
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: ReelThree_SpintoBar
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -411,7 +429,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: ReelThree_SpintoJackpot
+    m_ConditionEvent: ReelThree_SpintoGreySeven
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102315044955910830}
@@ -436,7 +454,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: ReelThree_SpintoBar
+    m_ConditionEvent: ReelThree_SpintoJackpot
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102825774182350238}
@@ -536,10 +554,13 @@ AnimatorStateTransition:
     m_ConditionEvent: ReelTwo_SpintoBarDiamond
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: ReelTwo_SpintoSeven
+    m_ConditionEvent: ReelTwo_SpintoGreySeven
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: ReelTwo_SpintoJackpot
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: ReelTwo_SpintoSeven
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: ReelTwo_SpintoBar
@@ -551,6 +572,56 @@ AnimatorStateTransition:
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0.1
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &1101368813710835212
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: ReelThree_SpintoBar
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 1102108582697645996}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &1101373279049506122
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: ReelOne_SpintoGreySeven
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 1102076133609904884}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
   m_HasExitTime: 1
@@ -571,6 +642,56 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102881993790478572}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &1101431447459434772
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: ReelOne_SpintoGreySeven
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 1102545011498071458}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.1
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &1101451764196220396
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: ReelTwo_SpintoBar
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 1102620920906039668}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -645,7 +766,10 @@ AnimatorStateTransition:
     m_ConditionEvent: ReelThree_SpintoBarDiamond
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: ReelThree_SpintoSeven
+    m_ConditionEvent: ReelThree_SpintoRedSeven
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: ReelThree_SpintoGreySeven
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: ReelThree_SpintoJackpot
@@ -676,7 +800,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: ReelTwo_SpintoSeven
+    m_ConditionEvent: ReelTwo_SpintoGreySeven
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102903812090149898}
@@ -723,7 +847,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: ReelTwo_SpintoBar
+    m_ConditionEvent: ReelTwo_SpintoSeven
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102652822666032210}
@@ -748,7 +872,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: ReelThree_SpintoSeven
+    m_ConditionEvent: ReelThree_SpintoRedSeven
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102766172782502520}
@@ -1060,6 +1184,59 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &1102076133609904884
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ReelOne_SpintoGreySeven
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 1101431447459434772}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 1
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 157236131f6a10a4ebe9ba3e46234224, type: 2}
+  m_Tag: 
+  m_SpeedParameter: ReelOne_Slowdown
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &1102108582697645996
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpintoBar
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 65226173b3604684597847c412a11c0c, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &1102118073170641024
 AnimatorState:
   serializedVersion: 5
@@ -1120,7 +1297,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SpintoJackpot
+  m_Name: SpintoGreySeven
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -1219,6 +1396,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: ReelOneOffset
   m_TimeParameter: 
+--- !u!1102 &1102416457667464964
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ReelTwo_SpintoBar
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 854732be0c5c0ef4eae8c94ab45a1296, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &1102471707196754308
 AnimatorState:
   serializedVersion: 5
@@ -1236,11 +1439,37 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 0
+  m_SpeedParameterActive: 1
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 94424347ffa81ad4ebc06a4082ecd272, type: 2}
+  m_Tag: 
+  m_SpeedParameter: ReelOne_Slowdown
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &1102476582470870406
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ReelThree_SpintoBar
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 65226173b3604684597847c412a11c0c, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -1316,13 +1545,39 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 0
+  m_SpeedParameterActive: 1
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 4e711a0eaa10cd443a1ae639c5921427, type: 2}
   m_Tag: 
-  m_SpeedParameter: 
+  m_SpeedParameter: ReelOne_Slowdown
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &1102620920906039668
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpintoBar
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 1
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 854732be0c5c0ef4eae8c94ab45a1296, type: 2}
+  m_Tag: 
+  m_SpeedParameter: Reeltwo_Slowdown
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -1412,7 +1667,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Spintobar
+  m_Name: SpintobarRedSeven
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -1490,7 +1745,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SpintoBar
+  m_Name: SpintoJackpot
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -1629,7 +1884,7 @@ AnimatorStateMachine:
     m_Position: {x: 348, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102118073170641024}
-    m_Position: {x: 324, y: -84, z: 0}
+    m_Position: {x: 324, y: -96, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102903812090149898}
     m_Position: {x: 324, y: -36, z: 0}
@@ -1639,6 +1894,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 1102652822666032210}
     m_Position: {x: 324, y: 60, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102620920906039668}
+    m_Position: {x: 324, y: 108, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 1101197874963949734}
@@ -1646,6 +1904,7 @@ AnimatorStateMachine:
   - {fileID: 1101576249491661602}
   - {fileID: 1101386078292584892}
   - {fileID: 1101643628584343806}
+  - {fileID: 1101451764196220396}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
@@ -1678,6 +1937,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 1102825774182350238}
     m_Position: {x: 432, y: 84, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102108582697645996}
+    m_Position: {x: 432, y: 132, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 1101240043166391264}
@@ -1685,6 +1947,7 @@ AnimatorStateMachine:
   - {fileID: 1101648308775800894}
   - {fileID: 1101300803357818646}
   - {fileID: 1101306238645743906}
+  - {fileID: 1101368813710835212}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
@@ -1704,7 +1967,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102545011498071458}
-    m_Position: {x: 612, y: 96, z: 0}
+    m_Position: {x: 600, y: 12, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102522454301090710}
     m_Position: {x: 312, y: -108, z: 0}
@@ -1729,6 +1992,12 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 1102471707196754308}
     m_Position: {x: 312, y: 228, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102076133609904884}
+    m_Position: {x: 312, y: 276, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102476582470870406}
+    m_Position: {x: 347, y: 341, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 1101802281241467928}
@@ -1739,6 +2008,7 @@ AnimatorStateMachine:
   - {fileID: 1101058453491878732}
   - {fileID: 1101675967555836104}
   - {fileID: 1101546529550843902}
+  - {fileID: 1101373279049506122}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
