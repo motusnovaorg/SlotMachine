@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 3c1cd6f10ab78492b9c828b685d690b8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Raleway ExtraLight
+  fontNames:
+  - Raleway ExtraLight
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f60d02404fa7b4dd5bf19052bc9ab25f, type: 3}
+  - {fileID: 12800000, guid: d3755a47a2d3f417fbc5b9493e28cac3, type: 3}
+  - {fileID: 12800000, guid: 2632b149cae2b4cec868debe07bea01f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
