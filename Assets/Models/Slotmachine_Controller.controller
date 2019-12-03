@@ -57,7 +57,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: ReelOne_SpintoSeven
+  - m_Name: ReelOne_SpintoRedSeven
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -81,7 +81,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: ReelTwo_SpintoGreySeven
+  - m_Name: ReelTwo_SpintoGraySeven
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -93,13 +93,13 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Reeltwo_Slowdown
+  - m_Name: ReelTwo_Slowdown
     m_Type: 1
     m_DefaultFloat: 1
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: ReelTwo_SpintoSeven
+  - m_Name: ReelTwo_SpintoRedSeven
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -123,7 +123,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: ReelThree_SpintoGreySeven
+  - m_Name: ReelThree_SpintoGraySeven
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -141,7 +141,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: ReelOne_SpintoGreySeven
+  - m_Name: ReelOne_SpintoGraySeven
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -254,7 +254,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: ReelOne_SpintoSeven
+    m_ConditionEvent: ReelOne_SpintoRedSeven
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102388833242485092}
@@ -304,7 +304,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: ReelOne_SpintoSeven
+    m_ConditionEvent: ReelOne_SpintoRedSeven
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102545011498071458}
@@ -429,7 +429,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: ReelThree_SpintoGreySeven
+    m_ConditionEvent: ReelThree_SpintoGraySeven
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102315044955910830}
@@ -554,13 +554,13 @@ AnimatorStateTransition:
     m_ConditionEvent: ReelTwo_SpintoBarDiamond
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: ReelTwo_SpintoGreySeven
+    m_ConditionEvent: ReelTwo_SpintoGraySeven
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: ReelTwo_SpintoJackpot
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: ReelTwo_SpintoSeven
+    m_ConditionEvent: ReelTwo_SpintoRedSeven
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: ReelTwo_SpintoBar
@@ -613,7 +613,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: ReelOne_SpintoGreySeven
+    m_ConditionEvent: ReelOne_SpintoGraySeven
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102076133609904884}
@@ -663,7 +663,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: ReelOne_SpintoGreySeven
+    m_ConditionEvent: ReelOne_SpintoGraySeven
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102545011498071458}
@@ -769,7 +769,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ReelThree_SpintoRedSeven
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: ReelThree_SpintoGreySeven
+    m_ConditionEvent: ReelThree_SpintoGraySeven
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: ReelThree_SpintoJackpot
@@ -800,7 +800,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: ReelTwo_SpintoGreySeven
+    m_ConditionEvent: ReelTwo_SpintoGraySeven
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102903812090149898}
@@ -847,7 +847,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: ReelTwo_SpintoSeven
+    m_ConditionEvent: ReelTwo_SpintoRedSeven
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102652822666032210}
@@ -1259,7 +1259,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: baa5e65953ae57643a9ae1e1509e858b, type: 2}
   m_Tag: 
-  m_SpeedParameter: Reeltwo_Slowdown
+  m_SpeedParameter: ReelTwo_Slowdown
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -1577,7 +1577,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 854732be0c5c0ef4eae8c94ab45a1296, type: 2}
   m_Tag: 
-  m_SpeedParameter: Reeltwo_Slowdown
+  m_SpeedParameter: ReelTwo_Slowdown
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -1682,7 +1682,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: ec663af761e7bc745a1dbcf3ff9f8e73, type: 2}
   m_Tag: 
-  m_SpeedParameter: Reeltwo_Slowdown
+  m_SpeedParameter: ReelTwo_Slowdown
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -1813,7 +1813,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: ad515494922af0946824ac89b5992916, type: 2}
   m_Tag: 
-  m_SpeedParameter: Reeltwo_Slowdown
+  m_SpeedParameter: ReelTwo_Slowdown
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: ReelOneOffset
@@ -1839,7 +1839,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: b0f6d72f0637efd44bf74f4a969c22ee, type: 2}
   m_Tag: 
-  m_SpeedParameter: Reeltwo_Slowdown
+  m_SpeedParameter: ReelTwo_Slowdown
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
