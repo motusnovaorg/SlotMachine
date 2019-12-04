@@ -21598,11 +21598,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8378044172560071569, guid: a023e0fe16e8219418f1f54ec034ab32,
-        type: 3}
-      propertyPath: EmissionModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 742365801114542252, guid: a023e0fe16e8219418f1f54ec034ab32,
         type: 3}
       propertyPath: m_Name
@@ -21737,6 +21732,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378044172560071569, guid: a023e0fe16e8219418f1f54ec034ab32,
+        type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6420061265613834073, guid: a023e0fe16e8219418f1f54ec034ab32,
         type: 3}
