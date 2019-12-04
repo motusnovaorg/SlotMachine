@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "key":"main_menu_button_text",
+      "value":"Go to Main Menu"
+    },
+    {
+      "key":"game_score",
+      "value":"Score:"
+    },
+    {
+      "key":"game_high_score",
+      "value":"High Score:"
+    },
+    {
+      "key":"game_description_balloon",
+      "value":"Fly through the busy sky and defeat the angry boss! But be careful because every time you hit an obstacle you lose a life, and you only have 5 lives. Dodge flying obstacles by bending your wrist up and down. \n\nThe further you get, the more points you get!\n\nBONUS: Get an extra 20 points for each coin! Fly through coins to collect them. \n"
+    },
+    {
+      "key":"game_description_thermometer",
+      "value":"Keep the temperature as cold as possible! Bend your wrist down to reduce the temperature. Maintaining the thermometer at a cooler temperature will give you a higher score!"
+    },
+    {
+      "key":"game_description_strongman",
+      "value":"Grab and lift the barbell up to score! Bend your wrist down to grab the barbell. Bend your wrist up to lift the bar."
+    },
+    {
+      "key":"game_description_spaceshooter",
+      "value":"Shoot as many enemy ships as possible to get the highest score! Be sure to not get hit by enemy fire or ships. Fly through power ups to get more lives and increase firing rate! Bend your wrist up and down to move across the screen. \n\nTypes of Enemy Ships:\n"
+    },
+    {
+      "key":"game_description_blocks",
+      "value":"Move the active block up and down by bending your hand at the wrist up and down\n\nTap the controller with your free hand to rotate the active block\n\nStack the blocks into full columns to delete the blocks and score points."
+    },
+    {
+      "key":"game_description_golf",
+      "value":"Hole 9\n\nSTEP ONE  Aim by moving your hand up and down at the wrist, tap the Hand Controller with your free hand to set swing angle\n\nSTEP TWO Adjust power by moving your hand up and down at the wrist, tap the Hand Controller with your free hand to lock in power and swing\n\nGet the ball in the hole in as few swings as possible."
+    },
+    {
+      "key":"game_name_baloon",
+      "value":"Balloon Rider"
+    },
+    {
+      "key":"game_name_spaceshooter",
+      "value":"SpaceShooter"
+    },
+    {
+      "key":"game_name_thermometer",
+      "value":"Thermometer"
+    },
+    {
+      "key":"game_name_strongman",
+      "value":"Strongman"
+    },
+    {
+      "key":"game_name_strongmanup",
+      "value":"StrongmanUp"
+    },
+    {
+      "key":"game_name_blocks",
+      "value":"Blocks"
+    },
+    {
+      "key":"game_name_golf",
+      "value":"Green Golf"
+    },
+    {
+      "key":"menu_state_tutorial",
+      "value":"Tutorial"
+    },
+    {
+      "key":"menu_state_settings",
+      "value":"Settings"
+    },
+    {
+      "key":"menu_settings_music_volume",
+      "value":"Music Volume"
+    },
+    {
+      "key":"menu_settings_sfx_volume",
+      "value":"Effects Volume"
+    },
+    {
+      "key":"menu_settings_text_size",
+      "value":"Text Size"
+    },
+    {
+      "key":"menu_state_paused",
+      "value":"Game Paused"
+    },
+    {
+      "key":"menu_paused_time_played",
+      "value":"Time Played"
+    },
+    {
+      "key":"menu_paused_goals_met",
+      "value":"Goals Met"
+    },
+    {
+      "key":"menu_paused_stretches_done",
+      "value":"Stretches Done"
+    },
+    {
+      "key":"menu_state_short_term_progress",
+      "value":"Today's Progress"
+    },
+    {
+      "key":"todays_progress_game1",
+      "value":"Thermometer"
+    },
+    {
+      "key":"todays_progress_game2",
+      "value":"Strongman"
+    },
+    {
+      "key":"todays_progress_game3",
+      "value":"Balloon"
+    },
+    {
+      "key":"menu_state_long_term_progress",
+      "value":"Your Longterm Achievements"
+    },
+    {
+      "key":"menu_state_long_term_progress_percentage_completion",
+      "value":"Daily Goal Completion Percentage"
+    },
+    {
+      "key":"menu_state_long_term_progress_description",
+      "value":"Your progress since joining us."
+    },
+    {
+      "key":"icon_progress_text",
+      "value":"Progress"
+    },
+    {
+      "key":"icon_achievements_text",
+      "value":"Achievement"
+    },
+    {
+      "key":"icon_help_text",
+      "value":"Help"
+    },
+    {
+      "key":"icon_settings_text",
+      "value":"Settings"
+    },
+    {
+      "key":"in_game_health_text",
+      "value":"Health"
+    },
+    {
+      "key":"game_over_text",
+      "value":"GAME OVER! \nTAP ON THE SCREEN TO PLAY AGAIN"
+    },
+    {
+      "key":"game_won_text",
+      "value":"WELL DONE!\nTAP ON THE SCREEN TO RESTART"
+    },
+    {
+      "key":"level_transition_text",
+      "value":"CONGRATULATIONS! \nWAIT TO PROCEED TO NEXT LEVEL"
+    },
+    {
+      "key":"resume_level_text",
+      "value":"GAME RESUMES IN..."
+    },
+    {
+      "key":"summary",
+      "value":"Summary"
+    },
+    {
+      "key":"in_game_score_text",
+      "value":"Score"
+    },
+    {
+      "key":"high_score_screen",
+      "value":"             Congratulations!\nNew High Score :"
+    },
+    {
+      "key":"text_time",
+      "value":"Time "
+    }
+  ]
+}
