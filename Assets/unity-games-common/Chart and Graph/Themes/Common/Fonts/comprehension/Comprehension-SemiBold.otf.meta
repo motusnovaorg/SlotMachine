@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 73303b1081a404883baf20838edbfaa7
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Comprehension
+  fontNames:
+  - Comprehension
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d6f1476f4a343444795c8052cfdc65d4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
